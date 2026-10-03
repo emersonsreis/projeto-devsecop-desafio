@@ -32,7 +32,7 @@ jobs:
       # ❌ PASSO 3: IMPLEMENTE AQUI — Secrets Scanning com Gitleaks
       # Dica: use a action oficial "gitleaks/gitleaks-action@v2"
       - name: 🔑 Secrets Scanning
-        run: echo "TODO - implemente o Secrets Scanning com Gitleaks aqui"
+        uses: gitleaks/gitleaks-action@v2
         # SUBSTITUA o run acima pela implementação correta com "uses:"
 
       # ❌ PASSO 4: IMPLEMENTE AQUI — SAST com Semgrep
